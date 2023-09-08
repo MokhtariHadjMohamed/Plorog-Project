@@ -1,0 +1,4 @@
+d([]).
+d([H|L]):- 0 is mod(H,2), d(L), writeln("pair: " + H).
+d([H|L]):- d(L), writeln("unpair: " + H).
+

@@ -1,0 +1,2 @@
+aff([]).
+aff([X|L]):-print(X),aff(L).
